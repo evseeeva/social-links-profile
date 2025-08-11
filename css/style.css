@@ -4,18 +4,11 @@ body {
     color: #ffffff;
     background-color: #141414;
     line-height: 1.4;
-
-
 }
 
 .container {
     max-width: 1440px;
-    /* margin-top: 10vh; */
     padding: 0 25px;
-
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 .profile-card {
@@ -71,8 +64,8 @@ body {
     font-weight: 700;
     letter-spacing: 0.3px;
 
-    transition: background-color 0.2s ease-in,
-        color 0.2s ease-in;
+    transition: background-color 0.3s ease-in,
+        color 0.3s ease-in;
 }
 
 .profile-card__social-link:hover {
@@ -80,11 +73,11 @@ body {
     color: #333333;
 }
 
-footer{
+footer {
     padding: 20px 0;
 }
 
-.attribution{
+.attribution {
     width: max-content;
     margin: 0 auto;
 }
